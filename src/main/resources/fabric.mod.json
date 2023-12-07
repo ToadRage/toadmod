@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "toadmod",
+	"version": "1.0.0",
+	"name": "toadmod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"ToadRageThe5th"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.toadmod.toadmod"
+		],
+		"client": [
+			"com.toadmod.toadmodclient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
